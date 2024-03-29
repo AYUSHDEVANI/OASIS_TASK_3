@@ -17,6 +17,7 @@ def generate_password(length, use_letters=True, use_numbers=True, use_symbols=Tr
     return password
 
 
+
 def main():
     length = int(input("Enter the length of the password: "))
     use_letters = input("Include letters: (y/n): ").lower() == "y"
@@ -26,6 +27,7 @@ def main():
     password = generate_password(length, use_letters, use_numbers, use_symbols)
 
     print("Your generated password is:",password)
+
 
 
 
